@@ -3,7 +3,6 @@ import 'package:liquid_swipe/liquid_swipe.dart';
 
 import 'liquid.dart';
 
-
 class Home extends StatefulWidget {
   const Home({super.key});
 
@@ -18,20 +17,17 @@ class _Home extends State<Home> {
       const LiquidContiners(
         colors: Color.fromARGB(255, 150, 208, 255),
         images: 'assets/audience.png',
-        title: 'Travel',
-        buttontext: 'Skip',
+        title: 'Page 1',
       ),
       const LiquidContiners(
         colors: Color.fromARGB(255, 166, 241, 250),
         images: 'assets/audience (1).png',
-        title: 'Tourism',
-        buttontext: 'Skip',
+        title: 'Page 2',
       ),
-       const LiquidContiners(
+      const LiquidContiners(
         colors: Color.fromARGB(255, 234, 120, 120),
         images: 'assets/director.png',
-        title: 'Trip',
-        buttontext: 'Finish',
+        title: 'Page 3',
       ),
     ];
     return Scaffold(

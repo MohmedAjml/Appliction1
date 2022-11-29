@@ -12,7 +12,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       home: NatiSpl(title: 'Native Splash'),
     );
@@ -29,7 +28,6 @@ class NatiSpl extends StatefulWidget {
 }
 
 class _NatiSplState extends State<NatiSpl> {
-
   @override
   void initState() {
     super.initState();
@@ -37,7 +35,7 @@ class _NatiSplState extends State<NatiSpl> {
   }
 
   void initialization() async {
-    Future.delayed(const Duration(seconds: 5));
+    Future.delayed(const Duration(seconds:8));
     FlutterNativeSplash.remove();
   }
 
@@ -49,7 +47,11 @@ class _NatiSplState extends State<NatiSpl> {
         centerTitle: true,
       ),
       body: const Center(
-    child: Text('Welcome', style: TextStyle(fontSize: 30), textAlign: TextAlign.center,),
+        child: Text(
+          'Welcome',
+          style: TextStyle(fontSize: 30),
+          textAlign: TextAlign.center,
+        ),
       ),
     );
   }
