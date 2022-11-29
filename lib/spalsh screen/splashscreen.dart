@@ -35,7 +35,7 @@ class _NatiSplState extends State<NatiSpl> {
   }
 
   void initialization() async {
-    Future.delayed(const Duration(seconds:8));
+    await Future.delayed(const Duration(seconds: 5));
     FlutterNativeSplash.remove();
   }
 

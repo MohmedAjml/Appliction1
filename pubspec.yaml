@@ -49,8 +49,17 @@ dev_dependencies:
 flutter_native_splash:
   color: "#f7f6f1"
   color_dark: "#272727"
-  image: assets/audience.png
-  image_dark: assets/audience.png
+  image: assets/splash2.png
+  image_dark: assets/splash2.png
+  android_gravity: center
+
+  android_12:
+    color: "#f7f6f1"
+    color_dark: "#272727"
+    image: assets/splash2.png
+    image_dark: assets/splash2.png
+    android_gravity: center
+
   # branding: assets/test1.png
   # branding_dark: assets/test3.png
   # branding_mode: bottomLeft
