@@ -33,7 +33,7 @@ class _Home extends State<Home> {
     return Scaffold(
         body: LiquidSwipe(
       pages: pages,
-      positionSlideIcon: 0.8,
+      positionSlideIcon: 0.5,
       waveType: WaveType.liquidReveal,
       enableSideReveal: true,
       fullTransitionValue: 1000,

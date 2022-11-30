@@ -49,12 +49,12 @@ dev_dependencies:
 flutter_native_splash:
   color: "#f7f6f1"
   color_dark: "#272727"
-  image: assets/splash2.png
+  image: assets/director.png
   image_dark: assets/splash2.png
   android_gravity: center
 
   android_12:
-    color: "#f7f6f1"
+    color: "#99f6f1"
     color_dark: "#272727"
     image: assets/splash2.png
     image_dark: assets/splash2.png
